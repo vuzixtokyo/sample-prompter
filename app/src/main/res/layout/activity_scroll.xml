@@ -1,0 +1,24 @@
+<ScrollView
+    android:id="@+id/sv_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="false"
+    android:scrollbarStyle="insideInset"
+    android:scrollbarThumbVertical="@android:color/holo_green_dark"
+    android:scrollbarTrackVertical="@drawable/scrollbar_track"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.2"
+        android:paddingBottom="20dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:paddingTop="20dp"
+        android:textSize="72sp"/>
+
+</ScrollView>

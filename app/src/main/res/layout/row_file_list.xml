@@ -1,0 +1,11 @@
+<TextView
+    android:id="@+id/tv_overview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:paddingLeft="@dimen/row_horizontal_margin"
+    android:paddingRight="@dimen/row_horizontal_margin"
+    android:textSize="25sp"/>
+
