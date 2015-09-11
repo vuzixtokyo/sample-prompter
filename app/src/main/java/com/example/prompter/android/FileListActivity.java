@@ -16,11 +16,9 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import java.io.File;
-
-import jp.co.c_lis.prompter.android.R;
-
 import com.example.prompter.android.util.FileUtils;
+
+import java.io.File;
 
 public class FileListActivity extends Activity implements AdapterView.OnItemClickListener {
     private static final String TAG = "FileListActivity";

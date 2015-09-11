@@ -15,12 +15,10 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.prompter.android.util.FileUtils;
+
 import java.io.File;
 import java.lang.ref.WeakReference;
-
-import jp.co.c_lis.prompter.android.R;
-
-import com.example.prompter.android.util.FileUtils;
 
 public class ScrollActivity extends Activity
         implements LoaderManager.LoaderCallbacks<FileLoader.Result> {
