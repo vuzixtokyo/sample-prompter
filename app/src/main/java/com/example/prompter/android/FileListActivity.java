@@ -67,6 +67,9 @@ public class FileListActivity extends Activity implements AdapterView.OnItemClic
 
         setContentView(R.layout.activity_list);
 
+        TextView hint = (TextView) findViewById(R.id.tv_hint);
+        hint.setText(mDir.getAbsolutePath());
+
         mListView = (ListView) findViewById(R.id.listview);
         mListView.setAdapter(mAdapter);
         mListView.setOnItemClickListener(this);
